@@ -42,7 +42,7 @@ body {
 }
 .jumbotron{
 
-  background-image: url("imagen.png");
+  background-image: url("../imagen.png");
   background-position: left;
   background-color: seashell;
   background-repeat: no-repeat;

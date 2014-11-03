@@ -23,8 +23,8 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-.container {
- 
+.main{
+  margin-top: -2%;
 }
 .container .text-muted {
   margin: 20px 0;
@@ -34,21 +34,18 @@ body {
 .my h1{
 
   font-size: 40px;
+  margin-top: 1%;
 }
 
-.my{
 
-  height: 100px;
-}
 .jumbotron{
 
-  background-image: url("imagen.png");
+  background-image: url("../imagen.png");
   background-position: left;
   background-color: seashell;
   background-repeat: no-repeat;
   border-bottom: dotted 1px darksalmon;
   text-align: right;
-  height: 50px;
 }
 
 .sub{

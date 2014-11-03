@@ -43,9 +43,7 @@ cat << _EOF_
     
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.css" rel="stylesheet">
-    <link href="style3.css" rel="stylesheet">
-
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style3.css" rel="stylesheet">
     
   </head>
 
