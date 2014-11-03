@@ -1,0 +1,54 @@
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+ 
+}
+.container .text-muted {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.jumbotron{
+
+  background-image: url("imagen.png");
+  background-position: left;
+  background-color: seashell;
+  background-repeat: no-repeat;
+  border-bottom: dotted 1px darksalmon;
+  text-align: right;
+  height: 50px;
+}
+
+.sub{
+  margin-top: -35px;
+  margin-bottom: 10px;
+  margin-right: 2%;
+}
+
+.s{
+  margin-right: 2%;
+}
+
