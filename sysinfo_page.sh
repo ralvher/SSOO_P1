@@ -21,6 +21,10 @@ home_space(){
     echo '<pre>'
           du -s /home/* | sort -n -r 
     echo '</pre>'
+    echo '<p><strong> El espacio total de los <i> root </i> es:</strong></p>'
+    echo '<pre>'
+          du -s /root/ | cut -f1
+    echo '</pre>'
 	else    
 		echo '<p><strong> El espacio total de <i style="color:green">' $USER '</i> es: </strong></p>'
 		echo '<pre>'
